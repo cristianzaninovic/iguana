@@ -33,15 +33,10 @@ h2 {
 }
 p {
 	font-family: Raleway, Medium;
-	font-weight: 22px;
+	font-weight: 26px;
 	color: #FFFFFF; 
-  line-height: 24px;   
+  line-height: 28px;   
 }
-.icon {
-	font-size: 24px;
-	margin-right: 10px;
-}
-
 nav {
   background-color: #1e1a13;
   padding: 20px;
@@ -91,11 +86,17 @@ nav a:hover {
 .container .image {
   width: 50%;
 }
-
-
+.icon {
+	font-size: 24px;
+	margin-right: 10px;
+}
+.icon-align {
+  text-align: center;
+}
 .icon-list {
   display: inline-flex;
   flex-direction: row;
+  flex-align: center;
   list-style: none;  
   margin: 0;
   padding: 0;  
@@ -132,6 +133,10 @@ nav a:hover {
   border-radius: 5px;
 }
 
+footer {
+  text-align: center;
+}
+
 footer a {
   display: inline-block;
   padding: 10px;
@@ -140,7 +145,7 @@ footer a {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   text-decoration: none;  
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;  
 }
 
 footer a:hover {
